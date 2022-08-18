@@ -5,7 +5,7 @@ from django.conf import settings
 class Formulaire_postuler(models.Model):
     nom = models.CharField(blank=False, null=False, max_length=30)
     prenom = models.CharField(blank=False, null=False, max_length=30)
-    telephone = models.IntegerField(null=True)
+    telephone = models.CharField(max_length=45, null=True)
     email = models.EmailField(blank=False, null=False)
     date_envoie = models.DateTimeField(auto_now_add=True, null=True)
     def __str__(self):

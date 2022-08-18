@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'formulaire_postuler',
+    'formulaire_reunion_info',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

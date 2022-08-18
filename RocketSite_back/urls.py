@@ -19,4 +19,5 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('formulaire_postuler/', include('formulaire_postuler.urls')),
+    path('formulaire_reunion_info/', include('formulaire_reunion_info.urls')),
 ]
