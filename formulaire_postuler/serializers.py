@@ -10,6 +10,6 @@ class Formulaire_postulerSerializer(serializers.ModelSerializer):
                   "prenom",
                   "telephone",
                   "email",
-                  "date_envoie"
+                  "date_envoi"
                   ]
     

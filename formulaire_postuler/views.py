@@ -12,7 +12,7 @@ class Formulaire_postulerList(generics.ListCreateAPIView):
     queryset = Formulaire_postuler.objects.all()
     serializer_class = Formulaire_postulerSerializer
     filter_backends = (filters.OrderingFilter, DjangoFilterBackend)
-    filterset_fields = ['date_envoie']
+    filterset_fields = ['date_envoi']
 
     def filter_queryset(self, queryset):
         queryset = super(Formulaire_postulerList, self).filter_queryset(queryset)
