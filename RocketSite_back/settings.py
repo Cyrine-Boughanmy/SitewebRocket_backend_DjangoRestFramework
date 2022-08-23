@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-hxw+ab0y@^=82@$qs-u$^7a!$z3%rjrxs&2+b@_^2k)rh#h%v8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*","https://rocket-coding-site-back.herokuapp.com/"]
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
